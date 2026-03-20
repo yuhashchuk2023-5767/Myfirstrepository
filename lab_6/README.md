@@ -40,7 +40,7 @@
 ## Вихідний код програм
 
 ### Тестовий скрипт Requests
-(./pictures/test.jpg)
+ [ файл test_req.py](./pictures/test.jpg)
 
 ### Веб-додаток Anime (Flask)
 ```python
@@ -61,9 +61,9 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
+```
 
-
- ## Висновок
+## Висновок
 
 • Що зроблено в роботі: Створено та налаштовано три типи віртуальних середовищ (venv, Pipenv, Poetry), реалізовано веб-сервер на Flask.
 
