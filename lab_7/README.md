@@ -70,9 +70,9 @@ root_agent = Agent(
 
 )
 
-![Скріншот 1](pictures/screen1.png)
+![Скріншот 1](pictures/screen1.jng)
 
-![Скріншот 2](pictures/screen2.png)
+![Скріншот 2](pictures/screen2.jng)
 
 🎓 #Агент 2: math_agent
 
@@ -84,7 +84,7 @@ def calculate_rectangle_area(width, height):
 
     return width * height
 
-![Скріншот 3](pictures/screen3.png)
+![Скріншот 3](pictures/screen3.jng)
 
 📌 Додано власний інструмент:
 
@@ -96,7 +96,7 @@ def calculate_rectangle_area(width, height):
 
 допомога студентам
 
-![Скріншот 4](pictures/screen4.png)
+![Скріншот 4](pictures/screen4.jng)
 
 🎓 #Агент 4: creative_writer
 
@@ -104,7 +104,7 @@ def calculate_rectangle_area(width, height):
 
 параметр temperature = 1.3 (креативність)
 
-![Скріншот 5](pictures/screen5.png)
+![Скріншот 5](pictures/screen5.jng)
 
 Під час тестування агента creative_writer спостерігалось зависання без отримання відповіді.
 Імовірною причиною є перевищення квоти Google Gemini API (помилка 429 RESOURCE_EXHAUSTED), оскільки інші агенти з меншою складністю запитів продовжували працювати.
@@ -113,7 +113,7 @@ def calculate_rectangle_area(width, height):
 
 📌 Має пам’ять
 
-![Скріншот 6](pictures/screen6.png)
+![Скріншот 6](pictures/screen6.jng)
 
 📌 Результати
 Розроблено кілька AI агентів
